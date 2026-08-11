@@ -5,7 +5,7 @@ This is an **educational repository** for practicing version control concepts �
 
 ## 📚 Course Progress
 
-- [ ] Chapter 01: Intro, Diff & Patch
+- [x] Chapter 01: Intro, Diff & Patch
 - [ ] Chapter 02: Git Basics
 - [ ] Chapter 03: Working with Git
 - [ ] Chapter 04: Advanced Interactions
@@ -22,6 +22,7 @@ This is an **educational repository** for practicing version control concepts �
 ## 🗂️ Repository Structure
 
 Each chapter folder contains:
+
 - `notes.md` – My personal summaries and key takeaways
 - `exercises/` – Mandatory course assignments
 - `my-experiments/` – Free exploration and deliberate practice
