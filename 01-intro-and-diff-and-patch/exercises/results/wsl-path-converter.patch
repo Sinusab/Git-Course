@@ -1,0 +1,19 @@
+--- exercises/wsl-path-converter-base.py	2026-08-11 19:42:13.644187242 +0330
++++ exercises/wsl-path-converter-fixed.py	2026-08-11 19:42:27.319481882 +0330
+@@ -3,8 +3,14 @@
+ 
+ dir_add = input("Enter directory path: ").strip("'\"")
+ 
+-# Convert Windows path to WSL path
+-if re.match(r"^[a-zA-Z]:[/\\]", dir_add):
++# Convert //wsl.localhost/<distro>/... → /...
++unc_match = re.match(r"^//wsl\.localhost/[^/]+(/.*)", dir_add, re.IGNORECASE)
++if unc_match:
++    dir_add = unc_match.group(1)
++    print(f"Converted UNC to: {dir_add}")
++
++# Convert Windows drive paths C:\... → /mnt/c/...
++elif re.match(r"^[a-zA-Z]:[/\\]", dir_add):
+     drive = dir_add[0].lower()
+     rest = dir_add[2:].replace("\\", "/")
+     dir_add = f"/mnt/{drive}{rest}"
