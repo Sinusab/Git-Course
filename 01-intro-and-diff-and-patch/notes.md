@@ -2,9 +2,12 @@
 
 ## 🎯 Key Concepts
 
-- **Version Control**: Why it matters (traceability, collaboration, safety net)
-- **Diff**: Comparing two versions of a file line-by-line
-- **Patch**: A portable diff that can be applied to recreate changes
+- **Version Control**: A system that records changes to files over time, enabling you to:
+  - 🔍 **Traceability**: See who changed what, when, and why (`git log`, `git blame`)
+  - 🤝 **Collaboration**: Multiple people work on the same project without overwriting each other's work (branches, merges)
+  - 🛡️ **Safety Net**: Undo mistakes, recover deleted files, and roll back to any previous state (`git checkout`, `git revert`)
+- **Diff**: Comparing two versions of a file line-by-line — the foundation of every code review and merge
+- **Patch**: A portable diff that can be applied to recreate changes — the building block of commits, PRs, and email-based contributions
 
 ## 🔧 Commands Cheat Sheet
 
