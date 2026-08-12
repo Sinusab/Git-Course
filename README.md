@@ -6,7 +6,7 @@ This is an **educational repository** for practicing version control concepts â€
 ## ðŸ“š Course Progress
 
 - [x] Chapter 01: Intro, Diff & Patch
-- [ ] Chapter 02: Git Basics
+- [x] Chapter 02: Git Basics
 - [ ] Chapter 03: Working with Git
 - [ ] Chapter 04: Advanced Interactions
 - [ ] Chapter 05: Reverting Changes
