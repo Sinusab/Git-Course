@@ -8,7 +8,7 @@ This is an **educational repository** for practicing version control concepts â€
 - [x] Chapter 01: Intro, Diff & Patch
 - [x] Chapter 02: Git Basics
 - [x] Chapter 03: Working with Git
-- [ ] Chapter 04: Advanced Interactions
+- [x] Chapter 04: Advanced Interactions
 - [ ] Chapter 05: Reverting Changes
 - [ ] Chapter 06: Branching & Merging
 - [ ] Chapter 07: GitHub Intro
