@@ -9,7 +9,7 @@ This is an **educational repository** for practicing version control concepts â€
 - [x] Chapter 02: Git Basics
 - [x] Chapter 03: Working with Git
 - [x] Chapter 04: Advanced Interactions
-- [ ] Chapter 05: Reverting Changes
+- [x] Chapter 05: Reverting Changes
 - [ ] Chapter 06: Branching & Merging
 - [ ] Chapter 07: GitHub Intro
 - [ ] Chapter 08: Remote Repositories
