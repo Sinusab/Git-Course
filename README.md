@@ -3,6 +3,10 @@
 My step-by-step learning journey through **Jadi's Git & GitHub course** on Maktabkhooneh.  
 This is an **educational repository** for practicing version control concepts — not a portfolio project.
 
+## 🙏 Acknowledgments
+
+This repository contains my personal study notes and exercises created while following [@jadijadi](https://github.com/jadijadi)'s [Git & GitHub Course](https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%DB%8C%D8%AA-%D8%AC%D8%A7%D8%AF%DB%8C-mk12029/) on Maktabkhooneh. All notes, diagrams, quizzes, and code examples are my own original work based on concepts learned from the course. This is a personal learning project and is not affiliated with or endorsed by the course instructor.
+
 ## 📚 Course Progress
 
 - [x] Chapter 01: Intro, Diff & Patch
@@ -21,11 +25,14 @@ This is an **educational repository** for practicing version control concepts �
 
 ## 🗂️ Repository Structure
 
-Each chapter folder contains:
+Each chapter folder may contain:
 
-- `notes.md` – My personal summaries and key takeaways
-- `exercises/` – Mandatory course assignments
-- `my-experiments/` – Free exploration and deliberate practice
+- `notes.md` – Personal summaries, key takeaways, and conceptual explanations
+- `quiz.md` – Interactive conceptual quiz with collapsible answers
+- `assets/` – Diagrams, screenshots, and visual aids referenced in notes
+- `exercises/` – Mandatory course assignments and deliverables
+
+> **Note:** Not every chapter contains all items above. Files are added as needed based on the topic and learning objectives of each session.
 
 ## 🔗 Resources
 
